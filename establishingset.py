@@ -1,5 +1,9 @@
 #Preparing the data from CSV file
 
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+from keras.utils import FeatureSpace
 import pandas as pd
 
 # Load the CSV file from GitHub
